@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title><?= isset($page_title) ? $page_title : ""; ?></title>
-    <link href="../css/normalize.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
-    <link href="../css/flatpickr.min.css" rel="stylesheet">
+    <link href="css/normalize.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/flatpickr.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -15,7 +15,7 @@
         <div class="main-header__container container">
             <h1 class="visually-hidden">YetiCave</h1>
             <a href="index.php" class="main-header__logo">
-                <img src="../img/logo.svg" width="160" height="39" alt="Логотип компании YetiCave">
+                <img src="img/logo.svg" width="160" height="39" alt="Логотип компании YetiCave">
             </a>
             <form class="main-header__search" method="get" action="search.php" autocomplete="off">
                 <input type="search" name="search" placeholder="Поиск лота"
